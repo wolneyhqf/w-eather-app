@@ -42,3 +42,11 @@ export interface CityWeatherResponse {
         temp: number;
     }[];
 }
+
+export interface GeolocationResponse {
+    name: string;
+    lat: number;
+    lon: number;
+    country: string;
+    state: string;
+}
